@@ -1,3 +1,4 @@
+mkdir /etc/v2ray/
 echo -e -n "$CONFIG_JSON1" > /etc/v2ray/config.json
 echo -e -n "$PORT" >> /etc/v2ray/config.json
 echo -e -n "$CONFIG_JSON2" >> /etc/v2ray/config.json
