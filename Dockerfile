@@ -17,7 +17,6 @@ RUN set -ex \
  && chmod +x /usr/bin/v2ray/v2ctl \
  && chmod +x /usr/bin/v2ray/v2ray \
  && chmod +x /entrypoint.sh \
- && echo "0.0.0.0 $PORT 0.0.0.0 $PORT" > /etc/rinetd-bbr.conf \
  && chmod +x /usr/local/bin/rinetd
 
 #ENTRYPOINT /entrypoint.sh
