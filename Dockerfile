@@ -19,6 +19,8 @@ RUN set -ex \
  && chmod +x /entrypoint.sh \
  && chmod +x /usr/local/bin/rinetd
 
+ENV PATH /usr/bin/v2ray:$PATH
+
 #ENTRYPOINT /entrypoint.sh
 
 CMD /entrypoint.sh
