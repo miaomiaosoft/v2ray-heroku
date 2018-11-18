@@ -5,15 +5,15 @@
   "env": {
     "VER": {
        "description": "输入v2ray Core 版本",
-       "value": "3.15"
+       "value": "3.46"
      }, 
     "UUID": {
        "description": "Vmess协议默认UUID，请输入自己的UUID",
-       "value": "8fd6dadc-0d59-4ae7-93bb-e6b8a231c2c2"
+       "value": "8b84f184-2521-4d02-b702-2ef09de6dd66"
      },
     "V2RAY_RAY_BUFFER_SIZE": {
        "description": "每个连接的缓存大小，单位MB",
-       "value": "10"
+       "value": "1"
      }
   },
   "website": "https://github.com/wangyi2005/v2ray-heroku",
